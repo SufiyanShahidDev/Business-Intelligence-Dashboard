@@ -157,14 +157,14 @@ body {
     box-shadow: var(--shadow);
 }
 
-.card-soft{
+.card-soft {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }
 
-.kpi-card{
+.kpi-card {
     padding: 18px;
     height: 100%;
     transition: transform 0.2s ease;
