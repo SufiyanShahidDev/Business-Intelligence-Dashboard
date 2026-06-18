@@ -169,3 +169,36 @@ body {
     height: 100%;
     transition: transform 0.2s ease;
 }
+
+.kpi-card:hover {
+    transform: translateY(-3px);
+}
+
+.kpi-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    background: var(--primary-soft);
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.kpi-label{
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-bottom: 4px;0
+}
+
+.kpi-value{
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.kpi-change{
+    font-size: 0.88rem;
+    margin-top: 8px;
+}
