@@ -5,24 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEYZIX CORE | Business intelligence Dashboard</title>
-    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-
     <div class="main-container">
-
         <!-- Sidebar -->
-
         <aside class="sidebar" id="sidebar">
             <div class="brand">
-                <div class="brand-logo"><img src="./assets/logo.png" width="100%" alt=""></div>
+                <div class="brand-logo"><i class="fa-solid fa-chart-line"></i></div>
                 <div>
                     <h1>Teyzix Core</h1>
                     <small>Business Intelligence Dashboard</small>
@@ -53,15 +47,13 @@
         <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
         <!-- Main Content -->
-
         <main class="main-content">
-
-            <!-- Header Section-->
+            <!-- Header -->
             <section class="topbar d-flex align-items-center justify-content-between flex-wrap gap-3" id="overview">
                 <div>
                     <button class="icon-btn mobile-toggle me-2" id="menuToggle" aria-label="Toggle sidebar"><i
                             class="fa-solid fa-bars" id="menuIcon"></i></button>
-                    <p class="title">Business Intelligence Dashboard</p>
+                    <p class="title">Executive Dashboard</p>
                     <p class="subtitle">Live operational overview for revenue, customers, and sales performance.</p>
                 </div>
                 <div class="d-flex align-items-center gap-2 flex-wrap">
@@ -71,7 +63,6 @@
             </section>
 
             <!-- KPI Cards -->
-
             <section class="row g-3 mb-4">
                 <div class="col-12 col-sm-6 col-xl-2">
                     <div class="card-soft kpi-card">
@@ -82,7 +73,6 @@
                                 id="revenueChange">0%</span> vs last month</div>
                     </div>
                 </div>
-                <!-- KPI Card #2 -->
                 <div class="col-12 col-sm-6 col-xl-2">
                     <div class="card-soft kpi-card">
                         <div class="kpi-icon"><i class="fa-solid fa-users"></i></div>
@@ -92,7 +82,6 @@
                                 id="customerChange">0%</span> growth</div>
                     </div>
                 </div>
-                <!-- KPI Card #3 -->
                 <div class="col-12 col-sm-6 col-xl-2">
                     <div class="card-soft kpi-card">
                         <div class="kpi-icon"><i class="fa-solid fa-bag-shopping"></i></div>
@@ -102,7 +91,6 @@
                                 id="ordersChange">0%</span> conversion</div>
                     </div>
                 </div>
-                <!-- KPI Card #4 -->
                 <div class="col-12 col-sm-6 col-xl-2">
                     <div class="card-soft kpi-card">
                         <div class="kpi-icon"><i class="fa-solid fa-chart-line"></i></div>
@@ -112,7 +100,6 @@
                             trend</div>
                     </div>
                 </div>
-                <!-- KPI Card #5 -->
                 <div class="col-12 col-sm-6 col-xl-2">
                     <div class="card-soft kpi-card">
                         <div class="kpi-icon"><i class="fa-solid fa-circle-check"></i></div>
@@ -122,7 +109,6 @@
                             quality</div>
                     </div>
                 </div>
-                <!-- KPI Card #6 -->
                 <div class="col-12 col-sm-6 col-xl-2">
                     <div class="card-soft kpi-card">
                         <div class="kpi-icon"><i class="fa-solid fa-globe"></i></div>
@@ -327,8 +313,8 @@
             </section>
         </main>
     </div>
-    
     <script src="app.js"></script>
+
 </body>
 
 </html>
