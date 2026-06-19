@@ -144,16 +144,16 @@ flowchart TD
 Add your screenshots manually in this section:
 
 ### 1. Home Dashboard
-![Dashboard Screenshot](../Screenshots/full-project-overview.png)
+![Dashboard Screenshot](./assets/readme-assets//full-project-overview.png)
 
 ### 2. Analytics Section
-![Analytics Screenshot](../Screenshots/main-section.png)
+![Analytics Screenshot](./assets/readme-assets/main-section.png)
 
 ### 3. Customer Table
-![Table Screenshot](../Screenshots/customer-table.png)
+![Table Screenshot](./assets/readme-assets/customer-table.png)
 
 ### 4. Mobile View
-![Mobile Screenshot](../Screenshots/Responsive-sidebar.png)
+![Mobile Screenshot](./assets/readme-assets/Responsive-sidebar.png)
 
 
 ---
